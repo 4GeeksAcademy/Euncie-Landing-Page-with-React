@@ -1,12 +1,54 @@
+/* Jumbotron Properties */
+.navbar {
+    background-color: rgb(45, 45, 45);
+    color: white;
+    display: flex;
+    justify-content: end;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
 
-/* 
+.navbar-brand {
+    color: white;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.nav-link {
+    color: white;
+}
 
-*/
+.navbar-nav {
+    margin-left: auto;
+
+}
+
+/* Jumbotron Properties */
+.jumbotron {
+    background-color: rgb(224, 224, 224);
+    padding: 3rem;
+    border-radius: 1rem;
+}
+
+/* Card Properties */
+.card {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+}
+
+.card-footer {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer Properties */
+.copyright {
+    background-color: rgb(45, 45, 45);
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
