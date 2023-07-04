@@ -21,7 +21,7 @@ const Home = () => {
 			<Navbar />
 			<Jumbotron title="Korean Food!"
 				description="Korean cuisine has evolved over the years of social and political change. Originating from ancient agricultural and nomadic traditions in the Korean peninsula and southern Manchuria."
-				buttonURL="https://es.wikipedia.org/wiki/Kimchi"
+				buttonURL="https://en.wikipedia.org/wiki/Korean_cuisine"
 				buttonLabel="More Information" />
 			<div className="card-group">
 				{card.map((value, index) => {
